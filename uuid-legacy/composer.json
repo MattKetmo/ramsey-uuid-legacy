@@ -1,0 +1,24 @@
+{
+    "name": "ramsey/uuid-legacy",
+    "authors": [
+        {
+            "name": "Matthieu Moquet",
+            "email": "matthieu@moquet.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rhumsaa\\Uuid\\": "src"
+        }
+    },
+    "require": {
+        "ramsey/uuid": "^3.0"
+    },
+    "provide": {
+        "ramsey/uuid": "^3.0"
+    },
+    "replace": {
+        "ramsey/uuid": "^2.8",
+        "rhumsaa/uuid": "^2.8"
+    }
+}

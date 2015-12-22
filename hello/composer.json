@@ -1,0 +1,34 @@
+{
+    "name": "mattketmo/hello",
+    "require": {
+        "ramsey/uuid": "^3.0",
+        "mattketmo/foobar": "*",
+        "mattketmo/barbaz": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../foobar"
+        },
+        {
+            "type": "path",
+            "url": "../barbaz"
+        },
+        {
+            "type": "path",
+            "url": "../uuid-legacy"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ketmo\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthieu Moquet",
+            "email": "matthieu@moquet.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "mattketmo/foobar",
+    "require": {
+        "ramsey/uuid": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ketmo\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthieu Moquet",
+            "email": "matthieu@moquet.net"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "mattketmo/barbaz",
+    "require": {
+        "ramsey/uuid": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ketmo\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthieu Moquet",
+            "email": "matthieu@moquet.net"
+        }
+    ]
+}
