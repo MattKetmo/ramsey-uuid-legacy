@@ -2,6 +2,7 @@
     "name": "mattketmo/hello",
     "require": {
         "ramsey/uuid": "^3.0",
+        "ramsey/uuid-legacy": "*",
         "mattketmo/foobar": "*",
         "mattketmo/barbaz": "*"
     },
